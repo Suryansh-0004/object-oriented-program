@@ -1,0 +1,79 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+class Book
+{
+private:
+
+  int bookID;
+  string title;
+  string author;
+  double price;
+
+public:
+
+   // Default constructor with default values
+
+   Book()
+
+ {
+
+    bookID = 101;
+    title = "C++ Program";
+    author = "ajay kumar";
+    price=200.00;
+ }
+
+   // Parameterized constructor
+
+   Book(int id, string t, string a, double p)
+
+   {
+
+    bookID = id;
+    title = t;
+    author = a;
+    price = p;
+}
+
+// Function to display book details
+#include<iostream>
+#include<string>
+using namespace std;
+
+class Book
+{
+private:
+
+  int bookID;
+  string title;
+  string author;
+  double price;
+
+public:
+
+   // Default constructor with default values
+
+   Book()
+
+ {
+
+    bookID = 101;
+    title = "C++ Program";
+    author = "ajay kumar";
+    price=200.00;
+ }
+
+   // Parameterized constructor
+
+   Book(int id, string t, string a, double p)
+
+   {
+
+    bookID = id;
+    title = t;
+    author = a;
+    price = p;
+}
+
