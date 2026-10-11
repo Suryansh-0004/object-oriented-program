@@ -24,7 +24,7 @@ cout<<"age:"<<age<<endl;
 };
 int main()
 {
-Student s1("sahil",100,18);
+Student s1("suryansh",46,20);
 s1.display();
 return 0;
 }
