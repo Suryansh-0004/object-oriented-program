@@ -43,8 +43,8 @@ int main()
     cout<<"----employee records -----\n";
     for(int i = 0 ;i<MAX_EMPLOYEE;i++)
     {
-        stafflist[1].displayInfo (isauthorizedHR);
-
+        stafflist[i].displayInfo (isauthorizedHR);
+        cout << "-----------\n";
     }
     return 0;
 }
